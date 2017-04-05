@@ -1,0 +1,146 @@
+/*中间部分*/
+.new{
+	width:100%;
+	height:1100px;
+	background-color:#152C24;
+}
+
+.nw{
+	width:900px;
+	height:1000px;
+	margin:0 auto;
+	position:relative;
+	top:50px;
+	background-color:#54514C;
+}
+.nw h2{
+	height:30px;
+	line-height:30px;
+	padding:15px 0px 10px 20px;
+	font-size:20px;
+	cursor:pointer;
+}
+
+/*切换*/
+.tabe{
+	width:800px;
+	height:910px;
+	margin:auto 50px;
+	border-top:2px solid #858175;
+}
+
+.tb{
+	height:60px;
+}
+.tb ul li{
+	float:left;
+	height:60px;
+	line-height:60px;
+	margin:auto 10px;
+	cursor:pointer;
+	font-family:"楷体";
+	font-size:15px;
+}
+
+.newb{
+	display:block;
+	height:850px;
+	position:relative;
+}
+
+.newt{
+	display:none;
+	float:left;
+	height:850px;
+	position:relative;
+}
+
+.newk{
+	display:none;
+	float:left;
+	height:850px;
+	position:relative;
+}
+
+.newc,.newl,.YM,.wt,.wer,.okl{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(0px, 0px, 0px);
+}
+
+.newcp,.newlj,.YMp,.wtp,.werp,.oklp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/celebrity.jpg);
+	background-size: 260px;
+	border:2px solid #BBB29D;
+	cursor:pointer;
+}
+
+.newl{
+	transform:translate3d(270px, 10px, 0px)
+}
+
+.newlj{
+	background-image:url(../imag/jingcai.jpg);
+	background-size: 210px;
+}
+
+.YM{
+	transform:translate3d(530px, 20px, 0px)
+}
+.YMp{
+	background-image:url(../imag/YM.jpg);
+	background-size:210px;
+}
+
+.wt{
+	transform:translate3d(0px, 390px, 0px)
+}
+
+.wtp{
+	background-image:url(../imag/WT.jpg);
+	background-size:210px;
+}
+
+.wer{
+	transform:translate3d(266px, 370px, 0px)
+}
+
+.werp,.oklp{
+	background-image:url(../imag/tabekt.jpg);
+	background-size:210px;
+}
+
+.okl{
+	transform:translate3d(530px, 410px, 0px)
+}
+
+.opy{
+	display:none;
+	width:206px;
+	height:190px;
+	position:relative;
+	z-index:999;
+	background-color:#A2937C;
+	opacity: 0.5; 
+	cursor:pointer;
+}
+
+.newpuplic li a{
+	display:block;
+	text-indent: 2em;
+	font-family: "楷体";
+}
+.newpuplic li p{
+	text-indent: 2em;
+	font-family: "楷体";
+	cursor: pointer;
+}
+.newpuplic li a:hover{
+	color:#f0ffff;
+}

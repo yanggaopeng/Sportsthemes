@@ -1,0 +1,88 @@
+/*中间部分*/
+.middle{
+	width:100%;
+	height:900px;
+	background-color:#FFFBDB;
+}
+
+/*中间左边内容*/
+.section{
+	width:1000px;
+	height:800px;
+	margin:0 auto;
+	position:relative;
+	top:50px;
+}
+
+.section-left{
+	float:left;
+	width:650px;
+	border-top:6px solid #C36F42;
+	background-color:#54514C;
+}
+
+/*标题内容*/
+.zsection,.achieve,.lore,.retire{
+	width:600px;
+	border-bottom:3px solid #858175;
+	margin:15px 0px 0px 15px;
+}
+.zsection h2{
+	height:30px;
+	line-height: 25px;
+	font-size:30px;
+	margin-bottom:10px;
+	cursor: pointer;
+}
+
+/*第一段*/
+.achieve p,.lore p,.retire{
+	cursor: pointer;
+	line-height:25px; 
+	font-size:16px;
+	font-family: "楷体";
+	margin-bottom:15px;
+	text-indent:2em;
+}
+
+/*第二段*/
+.lore img{
+	position: relative;
+	left:45px;
+}
+
+/*最后*/
+.retire{
+	border-bottom:none;
+}
+
+/*中间右边部分*/
+.section-right{
+	float:right;
+	width:320px;
+	margin-left:30px;
+}
+
+/*第一部分*/
+.rsm,.awards,.incident{
+	border-top:6px solid #C36F42;
+	background-color:#54514C;
+	margin-bottom:20px;
+}
+.rsm h2,.awards h2,.incident h2{
+	height:30px;
+	line-height: 30px;
+	font-size:30px;
+	margin:15px 0px 0px 15px;
+	padding-bottom:10px;
+	border-bottom:3px solid #858175;
+	cursor: pointer;
+}
+.rsm p,.awards p,.incident p{
+	margin: 5px 0px 10px 15px;
+	height:20px;
+	line-height:20px;
+	font-family: "楷体";
+	font-size: 16px;
+	cursor:pointer;
+}

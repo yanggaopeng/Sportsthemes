@@ -1,0 +1,63 @@
+/*中间的部分*/
+.crlt{
+	width:100%;
+	height:2400px;
+	background-color: #FFFFF0;
+}
+
+.crlty{
+	width:900px;
+	height:2300px;
+	margin:0px auto;
+	position: relative;
+	top:50px;
+	background-color: #54514C;
+}
+.crlty h2{
+	height:30px;
+	line-height: 30px;
+	padding:15px 0px 10px 15px;
+	cursor:pointer;
+	font-size:20px;
+}
+
+.crlts{
+	width:860px;
+	margin:20px auto;
+	position: relative;
+	border-top:2px solid #858175;
+}
+
+/*四条内容*/
+.mw,.bd{
+	height:500px;
+	margin:20px auto;
+}
+
+.dy{
+	height:500px;
+	margin:20px auto;
+	position: absolute;
+	top:1108px;
+}
+
+.bk{
+	height:500px;
+	margin:20px auto;
+	position: absolute;
+	top:1755px;
+}
+
+.puplic{
+	position:relative;
+	left:110px;
+	cursor: pointer;
+}
+.mw p,.bd p,.dy p,.bk p{
+	height:70px;
+	line-height: 35px;
+	font-size:15px;
+	font-family: "楷体";
+	cursor: pointer;
+	text-indent:2em;
+}

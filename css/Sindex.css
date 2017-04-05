@@ -1,0 +1,308 @@
+/*header头部*/
+header{
+	width:100%;
+	height:66px;
+	border-top:1px solid #6a6761;
+	border-bottom:1px solid #6a6761;
+	background-color:#373531;
+	margin-top:35px;
+	position:fixed;
+}
+
+/*头部左边logo*/
+.top{
+	float:left;
+	width:100px;
+	height:100px;
+	position:relative;
+	top:-30px;
+}
+
+/*头部中间部分*/
+.navd{
+	float:left;
+	margin-left:45px;
+	width:560px;
+}
+.navd a{
+	display:block;
+	float:left;
+	height:66px;
+	line-height:66px;
+	margin:0px 20px 0px 20px;
+	text-align:center; 
+	font-size:14px;
+	font-family:"楷体";
+}
+
+/*右边图片*/
+.imgright{
+	float: right;
+	width:160px;
+}
+.imgright a{
+	float:left;
+	margin-top:16px;
+	width:36px;
+	height:36px;
+	display:block;
+}
+
+/*轮播图*/
+.banner{
+ 	height:440px;
+ 	overflow: hidden;
+}
+/*中间部分*/
+.middle{
+	width:100%;
+	height:1200px;
+	background-color: #cccccc;
+
+}
+.conent{
+	width:900px;
+	height:1200px;
+	margin:0 auto;
+	background-color: #89cff0;
+}
+
+/*标题*/
+h2 a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	position: relative;
+	left:40px;
+	top:20px;
+	font-size: 20px;
+	color:#f0ffff;
+}
+
+/*中间的8块内容*/
+.section{
+	width:900px;
+	position: relative;
+}
+
+.celebrity{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(30px, 0px, 0px);
+}
+
+.celebrityp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/celebrity.jpg);
+	background-size: 260px;
+	border:2px solid #BBB29D;
+}
+
+.Lore{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(285px, 10px, 0px);
+}
+.Lorej{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/jingcai.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.Recall{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(563px, 43px, 0px);
+}
+.Recallp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/maidi.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.History{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(27px, 389px, 0px);
+}
+.Historyp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/Houston.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.ncj{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(290px, 405px, 0px);
+}
+.ncjp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/ncj.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.yb{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(560px, 424px, 0px);
+}
+.ybp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/yb.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.ym{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(113px, 770px, 0px);
+}
+.ymp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/yb.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+.xm{
+	width:210px;
+	margin:20px 0px 0px 20px;
+	background-color:#6a6761;
+	position: absolute;
+	left:0px;
+	top:0px;
+	transform:translate3d(409px, 800px, 0px);
+}
+.xmp{
+	width:206px;
+	height:190px;
+	background-image:url(../imag/bxmj.jpg);
+	background-size: 210px;
+	border:2px solid #BBB29D;
+}
+
+/*透明度*/
+.opy{
+	display:none;
+	width:206px;
+	height:190px;
+	position: relative;
+	z-index: 999;
+	background-color: #BBB29D;
+	opacity: 0.5; 
+	cursor:pointer;
+
+}
+
+.puplic li a{
+	display:block;
+	text-indent: 2em;
+	font-family: "楷体";
+}
+.puplic li p{
+	text-indent: 2em;
+	font-family: "楷体";
+	cursor: pointer;
+}
+.puplic li a:hover{
+	color:#f0ffff;
+}
+/*底部整体*/
+footer{
+	width:100%;
+	height:500px;
+}
+
+/*底部第一部分*/
+.footer-top{
+	width:100%;
+	height:150px;
+	background-color:#36332D;
+}
+.advertis{
+	width:560px;
+	height:150px;
+	margin:0 auto;
+}
+.advertis li{
+	margin:30px 10px 0px 0px;
+	float:left;
+}
+
+/*底部第二部分*/
+.footer-middle{
+	width:100%;
+	height:150px;
+	background-color: #302D29;
+}
+.fbanner{
+	width:50%;
+	height:80px;
+	margin:0px auto;
+	border:1px solid #ccc;
+	overflow:hidden;
+	position: relative;
+	top:35px;
+}
+
+/*第三部分*/
+.footer-second{
+	width:100%;
+	height:200px;
+	overflow: hidden;
+	background-image:url(../imag/second.jpg);
+	background-size: 785px;
+}
+.fs{
+	width:960px;
+	margin:0 auto;
+}
+.footerp{
+	float:left;
+	margin-top: 10px;
+}
+.footera{
+	float:right;
+	margin-top:10px;
+}

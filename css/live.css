@@ -1,0 +1,101 @@
+/*中间部分*/
+.live{
+	width:100%;
+	height:1000px;
+	background-color: #00FF7F;
+}
+
+.lconent{
+	width:960px;
+	height:900px;
+	margin:0 auto;
+	position: relative;
+	background-color: #54514C;
+	top:50px;
+}
+.lconent h2{
+	height:30px;
+	line-height: 30px;
+	font-size:30px;
+	cursor: pointer;
+	padding:20px 0px 10px 20px;
+}
+
+.liveg{
+	width:900px;
+	margin:25px auto;
+	border-top:2px solid #858175;
+	border-bottom:2px solid #858175;
+	position: relative;
+	cursor: pointer;
+}
+
+.puplice{
+	width:200px;
+	height:200px;
+	margin:20px 0px 0px 20px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.livep1{
+	background-image:url(../imag/live.jpg);
+	background-size: 200px;
+	transform:translate3d(0px, 0px, 0px);
+}
+.livep2{
+	background-image:url(../imag/live1.jpg);
+	background-size: 200px;
+	transform:translate3d(270px, 45px, 0px);
+}
+.livep3{
+	background-image:url(../imag/live2.jpg);
+	background-size: 200px;
+	transform:translate3d(530px, 0px, 0px);
+}
+.livep4{
+	background-image:url(../imag/live3.jpg);
+	background-size: 200px;
+	transform:translate3d(690px, 240px, 0px);
+}
+.livep5{
+	background-image:url(../imag/live4.jpg);
+	background-size: 200px;
+	transform:translate3d(430px, 270px, 0px);
+}
+.livep6{
+	background-image:url(../imag/live5.jpg);
+	background-size: 200px;
+	transform:translate3d(212px, 380px, 0px);
+}
+.livep7{
+	background-image:url(../imag/live6.jpg);
+	background-size: 200px;
+	transform:translate3d(0px, 240px, 0px);
+}
+.livep8{
+	background-image:url(../imag/live7.png);
+	background-size: 200px;
+	transform:translate3d(0px, 540px, 0px);
+}
+.livep9{
+	background-image:url(../imag/live8.jpg);
+	background-size: 200px;
+	transform:translate3d(300px, 589px, 0px);
+}
+.livep10{
+	background-image:url(../imag/live9.jpg);
+	background-size: 200px;
+	transform:translate3d(570px, 500px, 0px);
+}
+
+/*遮盖层*/
+.liveop{
+	display:none;
+	width:200px;
+	height:200px;
+	position: relative;
+	z-index: 999;
+	background-color: #BBB29D;
+	opacity: 0.5; 
+}
